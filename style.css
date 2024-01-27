@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lab Grotesque Web";
+    background-color: #fff;
+    font-size: 16px;
+}
+
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 15px 60px;
+    position: fixed;
+    background-color: hsla(0, 0%, 100%, 0.596);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #767676;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.button button {
+    background-color: #04ddb2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 24px;
+    width: 129px;
+    height: 48px;
+    transition: all 300ms;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 200px;
+
+}
+
+.header-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.title span {
+    color: #04ddb2;
+}
+
+.sub-title {
+    color: #333;
+    font-size: 24px;
+    width: 550px;
+    margin-top: 20px;
+}
+
+.video-container {
+    margin-top: 60px;
+}
+
+.video-container img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.bottom-text {
+    max-width: 400px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.bottom-title {
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.bottom-button>button {
+    margin-top: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer {
+    border-top: 0.5px solid rgba(0, 0, 0, 0.4);
+    width: 100%;
+    margin-top: 60px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.lobe,
+.about,
+.resources,
+.genrel,
+.socialmedia-icons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.footer-logo{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+.about>span,
+.resources>span,
+.genrel>span,
+.socialmedia-icons>span {
+    font-weight: 900;
+    margin-bottom: 27px;
+}
+
+.lobe>p {
+    color: #767676;
+}
+
+a:hover{
+    scale: 1.1;
+}
+
+.nav-link:hover{
+    color: #333;
+    scale: 1.1;
+   
+}
+
+button:hover{
+    scale: 1.1;
+}
